@@ -5,3 +5,4 @@ __pycache__/
 .streamlit/secrets.toml
 data/*.parquet
 data/*.download
+INTERVIEW_PRESENTATION.md
