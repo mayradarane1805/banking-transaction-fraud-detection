@@ -20,7 +20,7 @@ A complete, syllabus-informed machine-learning portfolio project and interactive
 | System architecture | In-app workflow diagram and prototype boundaries |
 | Conclusion and future scope | Limitations and responsible next steps |
 
-The syllabus is used to guide implementation and documentation; there is no separate syllabus-only dashboard. See [SYLLABUS_COVERAGE.md](./SYLLABUS_COVERAGE.md) for the topic-by-topic checklist and limitations.
+Syllabus topics guide the additional experiments described in the relevant dashboard sections. There is no separate syllabus-only dashboard. The application labels experiments that are bounded teaching demonstrations and explains their limitations.
 
 ## Dataset and attribution
 
@@ -100,8 +100,6 @@ prototype_utils.py           Alert queue and DEMO DATA event helpers
 data\README.md               Dataset source, attribution, and local setup
 data\sample_transactions.csv Header-only feature template; add real feature rows
 tests\                       Automated tests
-SYLLABUS_COVERAGE.md         Topic-to-implementation checklist
-INTERVIEW_PRESENTATION.md    Faculty demo script and viva questions
 ```
 
 The end-to-end architecture diagram is also documented below and rendered in the app's **System architecture** page:
@@ -171,7 +169,7 @@ Colab will download the dataset into its temporary runtime; rerun the download a
 
    ```powershell
    git init
-   git add app.py app_pages data_processing.py fraud_detection.py model_training.py additional_experiments.py sequence_experiments.py rl_experiments.py prediction.py advanced_models.py prototype_utils.py requirements.txt README.md SYLLABUS_COVERAGE.md INTERVIEW_PRESENTATION.md data\README.md data\sample_transactions.csv tests .streamlit\config.toml .gitignore run_dashboard.bat
+   git add app.py app_pages data_processing.py fraud_detection.py model_training.py additional_experiments.py sequence_experiments.py rl_experiments.py prediction.py advanced_models.py prototype_utils.py requirements.txt README.md data\README.md data\sample_transactions.csv tests .streamlit\config.toml .gitignore run_dashboard.bat
    git status --short
    ```
 
